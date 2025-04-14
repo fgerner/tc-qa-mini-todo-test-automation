@@ -1,0 +1,28 @@
+{
+  "name": "tc-qa-mini-todo-test-automation",
+  "version": "1.0.0",
+  "description": "This is a simple HTML+JS To-Do app built for automation test candidates. It has basic features like adding, completing, and deleting tasks. Your challenge is to write automated tests for this app using JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeremTech/tc-qa-mini-todo-test-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TeremTech/tc-qa-mini-todo-test-automation/issues"
+  },
+  "homepage": "https://github.com/TeremTech/tc-qa-mini-todo-test-automation#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^9.12.4",
+    "@wdio/mocha-framework": "^9.12.3",
+    "@wdio/spec-reporter": "^9.12.3",
+    "chromedriver": "^135.0.1",
+    "wdio-wait-for": "^3.1.0"
+  }
+}

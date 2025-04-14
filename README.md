@@ -32,6 +32,29 @@ serve .
 
 Then go to: [http://localhost:3000](http://localhost:3000)
 
+## Run Tests
+
+The server needs to be served
+
+Test covered:
+
+Mini To-Do App - UI Tests
+- [x] should add a new task to the list
+- [x] should mark a task as completed
+- [x] should delete a task from the list
+- [x] should not add an empty task
+
+### Install WebdriverIO
+
+```
+npm install
+```
+### Run tests
+```
+npm run wdio
+```
+
+
 ---
 
 ## ✅ App Features

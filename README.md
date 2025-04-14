@@ -34,9 +34,14 @@ Then go to: [http://localhost:3000](http://localhost:3000)
 
 ## Run Tests
 
-The server needs to be served
+Node.js needs to be installed, and
+the web server needs to be running the app on http://localhost:3000
 
-Test covered:
+```bash
+npx serve
+```
+
+Test that are covered:
 
 Mini To-Do App - UI Tests
 - [x] should add a new task to the list
@@ -45,12 +50,12 @@ Mini To-Do App - UI Tests
 - [x] should not add an empty task
 
 ### Install WebdriverIO
-
-```
+Install the project dependencies:
+```npm
 npm install
 ```
 ### Run tests
-```
+```npm
 npm run wdio
 ```
 
